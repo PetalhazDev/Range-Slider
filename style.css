@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color:#000;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.output{
+    height: 200px;
+    width: 200px;
+    background-color: #7ecd34;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+
+}
+.result{
+    font-size: 30px;
+}
+.input{
+    width: 200px;
+    cursor: pointer;
+}
